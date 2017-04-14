@@ -43,15 +43,4 @@
 /** Y value of the object's center **/
 @property (nonatomic, assign) CGFloat   centerY;
 
-/** Returns the Subview with the heighest X value **/
-@property (nonatomic, strong, readonly) UIView *lastSubviewOnX;
-
-/** Returns the Subview with the heighest Y value **/
-@property (nonatomic, strong, readonly) UIView *lastSubviewOnY;
-
-/** 
- Centers the view to its parent view (if exists) 
- */
--(void) centerToParent;
-
 @end
