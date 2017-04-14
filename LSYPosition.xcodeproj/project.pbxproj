@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C5242D71EA0C9F60045CAE1 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5242D61EA0C9F60045CAE1 /* UIView+MJExtension.m */; };
+		9C55FCF81EA0CBB8005880A1 /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C55FCF71EA0CBB8005880A1 /* UIView+Positioning.m */; };
 		9C9129861EA0BC3E004C331F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9129851EA0BC3E004C331F /* main.m */; };
 		9C9129891EA0BC3E004C331F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9129881EA0BC3E004C331F /* AppDelegate.m */; };
 		9C91298C1EA0BC3E004C331F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C91298B1EA0BC3E004C331F /* ViewController.m */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C5242D51EA0C9F60045CAE1 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
-		9C5242D61EA0C9F60045CAE1 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		9C55FCF61EA0CBB8005880A1 /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		9C55FCF71EA0CBB8005880A1 /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
 		9C9129811EA0BC3E004C331F /* LSYPosition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSYPosition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9129851EA0BC3E004C331F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C9129871EA0BC3E004C331F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,8 +86,8 @@
 		9C91299B1EA0BC57004C331F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9C5242D51EA0C9F60045CAE1 /* UIView+MJExtension.h */,
-				9C5242D61EA0C9F60045CAE1 /* UIView+MJExtension.m */,
+				9C55FCF61EA0CBB8005880A1 /* UIView+Positioning.h */,
+				9C55FCF71EA0CBB8005880A1 /* UIView+Positioning.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -165,8 +165,8 @@
 			files = (
 				9C91298C1EA0BC3E004C331F /* ViewController.m in Sources */,
 				9C9129891EA0BC3E004C331F /* AppDelegate.m in Sources */,
+				9C55FCF81EA0CBB8005880A1 /* UIView+Positioning.m in Sources */,
 				9C9129861EA0BC3E004C331F /* main.m in Sources */,
-				9C5242D71EA0C9F60045CAE1 /* UIView+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
