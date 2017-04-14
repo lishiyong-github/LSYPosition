@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "UIView+Positioning.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +15,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%f",self.view.x);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
